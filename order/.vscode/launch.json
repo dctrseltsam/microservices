@@ -1,0 +1,21 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "env": {
+                "DATA_SOURCE_URL": "root:verysecretpass@tcp(localhost:3306)/order",
+                "APPLICATION_PORT": "3000",
+                "ENV": "development"
+            },
+            "args": []
+        }
+    ]
+}
