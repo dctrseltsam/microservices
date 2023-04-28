@@ -11,7 +11,7 @@
             "mode": "auto",
             "program": "${fileDirname}",
             "env": {
-                "DATA_SOURCE_URL": "root:verysecretpass@tcp(localhost:3306)/order",
+                "DATA_SOURCE_URL": "user:password@tcp(host:3306)/order",
                 "APPLICATION_PORT": "3000",
                 "ENV": "development"
             },
