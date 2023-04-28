@@ -21,4 +21,5 @@ go.work
 .DS_Store
 
 #VS Code
-.vscode/launch.json
+order/.vscode/*
+!order/.vscode/launch.template.json
